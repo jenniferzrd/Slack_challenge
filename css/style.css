@@ -1,0 +1,431 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+  background: url(../img/bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  background-color: red;
+}
+
+/* MENU */
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+  flex-wrap: wrap;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(205, 208, 213);
+  padding: 8px 7px 9px;
+}
+
+#menu a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+
+}
+
+#ul_nav {
+  list-style: none;
+  color: rgb(205, 208, 213);
+  font-weight: 700;
+  font-size: 16px;
+  opacity: 1;
+  display: flex;
+}
+
+.li_nav {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li img {
+  margin-right: 10px;
+}
+
+#icon_simplon {
+  border-radius: 5px;
+  opacity: 0.8;
+  height: 39px;
+}
+
+#icon_slack{
+  background: url(../img/header_logo_sprite.png) 0 0 no-repeat;
+  width: 116px;
+  height: 30px;
+}
+
+#Simplon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#burger{
+  width: 30px;
+  height: 30px;
+  border: solid 2px rgba(216, 213, 213, 0.67);
+  border-radius: 12%;
+  text-align: center;
+
+}
+
+#burger:hover{
+  border-color: white;
+}
+
+.li_nav:hover{
+  color: white;
+}
+
+/* FORMULAIRE */
+
+#bloc2{
+  display: none;
+}
+
+.bloc {
+  text-align: center;
+  padding-top: 125px;
+  color: white;
+}
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+.citation {
+  font-weight: 900;
+}
+
+.bloc p {
+  font-size: 22px;
+}
+
+#pos_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#formulaire {
+  background: rgba(174,180,180,.5);
+  padding-right: 60px;
+  border-radius: 10px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+button {
+  background-color: rgb(90,169,138);
+  border: 1px solid rgb(90,169,138);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#pos_form p {
+  color: white;
+  text-align: center;
+}
+
+#pos_form a {
+  color: white;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#texte_bottom{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+#texte_bottom a {
+  color: white;
+  text-decoration: none;
+}
+#first_txt_b{
+  font-weight: 900;
+}
+#snd_txt_b{
+  font-weight: 700;
+  margin-top: -13px;
+  font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: solid 1px grey;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.62) 35%, rgba(0,0,0,0.99) 77%, rgba(0,0,0,0.99) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.62) 35%,rgba(0,0,0,0.99) 77%,rgba(0,0,0,0.99) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.62) 35%,rgba(0,0,0,0.99) 77%,rgba(0,0,0,0.99) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#fc000000',GradientType=0 ); /* IE6-9 */
+}
+
+.ul_footer {
+  list-style: none;
+  color: rgb(205, 208, 213);
+  font-weight: 700;
+  box-sizing: padding-box;
+  padding-right: 120px;
+}
+
+.list_footer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Maj{
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.li_footer{
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: rgb(128,128,128);
+}
+
+.li_footer a {
+  text-decoration: none;
+  color: rgb(128,128,128);
+}
+
+.li_footer a:hover{
+  color: #C6C6C6;
+}
+
+.plus {
+  display: none;
+}
+
+#bottom_footer{
+  background-color: rgb(31,31,31);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#icon_slack_b{
+  background: url(../img/header_logo_sprite.png) 0 0 no-repeat;
+  width: 34px;
+  height: 30px;
+  margin-left: -63px;
+  margin-right: 100px;
+  margin-top: 10px;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+}
+
+#icon_slack_b:hover{
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+}
+
+#ul_b_f{
+  list-style: none;
+  display: flex;
+  margin-left: 60px;
+  margin-right: -60px;
+}
+
+#ul_b_f a {
+  text-decoration: none;
+  color: rgb(128,128,128);
+}
+
+#ul_b_f a:hover {
+  color: #c6c1c1;
+}
+
+#ul_b_f li {
+  padding-right: 10px;
+}
+
+#m_burger{
+  display: none;
+}
+
+@media screen and (max-width : 640px) {
+
+  #menu {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #md_nav_none1, #md_nav_none2, #md_nav_none3, #md_nav_none4  {
+    display: none;
+  }
+
+  #burger {
+    visibility: visible;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+
+  #burger:hover {
+    color: white;
+  }
+
+  #points {
+    display: none;
+  }
+  #m_burger{
+    display: flex;
+  }
+  .bloc {
+    padding: 0;
+  }
+
+  #bloc2 {
+    display: flex;
+    font-size: 18px;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+  }
+  .bloc h1 {
+    font-size: 36px;
+  }
+
+  .bloc p {
+    display: none;
+  }
+
+  #formulaire {
+    background-color: rgb(44,45,48);
+    border-radius: 0px;
+    padding-top: 30px;
+  }
+
+  #pos_form p {
+    margin-bottom: 35px;
+  }
+
+  button {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  #texte_bottom {
+    display: none;
+  }
+
+  .list_footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .li_footer {
+    display: none;
+  }
+
+  .Maj {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+
+  .ul_footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    border-top: 0px solid;
+  }
+
+  #bottom_footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #icon_slack_b{
+    margin: 0;
+  }
+
+  #ul_b_f{
+    margin: 0;
+  }
+  #ul_b_f li {
+    padding-right: 11px;
+  }
+
+  .plus {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -24px;
+    font-size: 24px;
+    color: grey;
+  }
+/*
+    input{
+      width: 95%;
+    }
+    .formulaire{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    button{
+      width: 100%;
+    }*/
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
+  .ul_footer {
+    padding-right: 85px;
+  }
+
+}
