@@ -337,6 +337,11 @@ footer {
     background-color: rgb(44,45,48);
     border-radius: 0px;
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
 
   #pos_form p {
@@ -394,7 +399,10 @@ footer {
 
   #ul_b_f{
     margin: 0;
+    display: flex;
+    align-items: center;
   }
+  
   #ul_b_f li {
     padding-right: 11px;
   }
@@ -406,20 +414,20 @@ footer {
     font-size: 24px;
     color: grey;
   }
-/*
-    input{
-      width: 95%;
-    }
-    .formulaire{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    button{
-      width: 100%;
-    }*/
+  /*
+  input{
+  width: 95%;
+}
+.formulaire{
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+button{
+width: 100%;
+}*/
 }
 
 @media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
